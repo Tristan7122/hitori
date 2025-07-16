@@ -11,8 +11,8 @@ const chalk = require('chalk');
 
 global.owner = ['27634624586'] //['628','628'] 2 owner atau lebih
 global.author = 'Tuesday'
-global.botname = '༄𝙿𝙷𝙾𝚁𝙰-𝙼𝙳༄'
-global.packname = 'Bot WhatsApp'
+global.botname = '𝙿𝙷𝙾𝚁𝙰-𝙼𝙳'
+global.packname = 'Tristan🦋'
 global.listprefix = ['+','!','.']
 
 /*
@@ -21,7 +21,7 @@ global.listprefix = ['+','!','.']
 - setbotauthor, setbotpackname, setbotname
 */
 
-global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
+global.listv = ['🦋','🌹']
 global.tempatDB = 'database.json' // Taruh url mongodb di sini jika menggunakan mongodb. Format : 'mongodb+srv://...'
 global.tempatStore = 'baileys_store.json' // Taruh url mongodb di sini jika menggunakan mongodb. Format : 'mongodb+srv://...'
 global.pairing_code = true
