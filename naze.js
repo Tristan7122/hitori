@@ -3945,14 +3945,14 @@ module.exports = naze = async (naze, m, msg, store) => {
 				}
 				const menunya = `
 ╭──❍「 *USER INFO* 」❍
-├ *Nama* : ${m.pushName ? m.pushName : 'Tanpa Nama'}
+├ *Name* : ${m.pushName ? m.pushName : 'Tanpa Nama'}
 ├ *Id* : @${m.sender.split('@')[0]}
 ├ *User* : ${isVip ? 'VIP' : isPremium ? 'PREMIUM' : 'FREE'}
 ├ *Limit* : ${isVip ? 'VIP' : db.users[m.sender].limit }
 ├ *Money* : ${db.users[m.sender] ? db.users[m.sender].money.toLocaleString('id-ID') : '0'}
 ╰─┬────❍
 ╭─┴─❍「 *BOT INFO* 」❍
-├ *Nama Bot* : ${db?.set?.[botNumber]?.botname || 'Naze Bot'}
+├ *Bot name* : ${db?.set?.[botNumber]?.botname || '𝙿𝙷𝙾𝚁𝙰-𝙼𝙳'}
 ├ *Powered* : @${'0@s.whatsapp.net'.split('@')[0]}
 ├ *Owner* : @${ownerNumber[0].split('@')[0]}
 ├ *Mode* : ${naze.public ? 'Public' : 'Self'}
@@ -3960,9 +3960,9 @@ module.exports = naze = async (naze, m, msg, store) => {
 ├ *Premium Feature* : 🔸️
 ╰─┬────❍
 ╭─┴─❍「 *ABOUT* 」❍
-├ *Tanggal* : ${tanggal}
-├ *Hari* : ${hari}
-├ *Jam* : ${jam} WIB
+├ *Date* : ${tanggal}
+├ *Day* : ${hari}
+├ *o'clock* : ${jam} WIB
 ╰──────❍
 ╭──❍「 *BOT* 」❍
 │${setv} ${prefix}profile
@@ -4299,7 +4299,7 @@ module.exports = naze = async (naze, m, msg, store) => {
 │${setv} ${prefix}totag (reply pesan)
 │${setv} ${prefix}listonline
 │${setv} ${prefix}group set
-│${setv} ${prefix}group (khusus admin)
+│${setv} ${prefix}group (𝚂𝚙𝚎𝚌𝚒𝚊𝚕 admin)
 ╰──────❍`)
 			}
 			break
@@ -4353,17 +4353,17 @@ module.exports = naze = async (naze, m, msg, store) => {
 				m.reply(`
 ╭──❍「 *TOOLS* 」❍
 │${setv} ${prefix}get (url) 🔸️
-│${setv} ${prefix}hd (reply pesan)
-│${setv} ${prefix}toaudio (reply pesan)
-│${setv} ${prefix}tomp3 (reply pesan)
-│${setv} ${prefix}tovn (reply pesan)
-│${setv} ${prefix}toimage (reply pesan)
-│${setv} ${prefix}toptv (reply pesan)
-│${setv} ${prefix}tourl (reply pesan)
-│${setv} ${prefix}tts (textnya)
-│${setv} ${prefix}toqr (textnya)
-│${setv} ${prefix}brat (textnya)
-│${setv} ${prefix}bratvid (textnya)
+│${setv} ${prefix}hd (𝚛𝚎𝚙𝚕𝚢 𝚖𝚎𝚜𝚜𝚊𝚐𝚎)
+│${setv} ${prefix}toaudio (𝚛𝚎𝚙𝚕𝚢 𝚖𝚎𝚜𝚜𝚊𝚐𝚎)
+│${setv} ${prefix}tomp3 (𝚛𝚎𝚙𝚕𝚢 𝚖𝚎𝚜𝚜𝚊𝚐𝚎)
+│${setv} ${prefix}tovn (𝚛𝚎𝚙𝚕𝚢 𝚖𝚎𝚜𝚜𝚊𝚐𝚎)
+│${setv} ${prefix}toimage (𝚛𝚎𝚙𝚕𝚢 𝚖𝚎𝚜𝚜𝚊𝚐𝚎)
+│${setv} ${prefix}toptv (𝚛𝚎𝚙𝚕𝚢 𝚖𝚎𝚜𝚜𝚊𝚐𝚎)
+│${setv} ${prefix}tourl (𝚛𝚎𝚙𝚕𝚢 𝚖𝚎𝚜𝚜𝚊𝚐𝚎)
+│${setv} ${prefix}tts (𝚃𝚑𝚎 𝚝𝚎𝚡𝚝)
+│${setv} ${prefix}toqr (𝚃𝚑𝚎 𝚝𝚎𝚡𝚝)
+│${setv} ${prefix}brat (𝚃𝚑𝚎 𝚝𝚎𝚡𝚝)
+│${setv} ${prefix}bratvid (𝚃𝚑𝚎 𝚝𝚎𝚡𝚝)
 │${setv} ${prefix}ssweb (url) 🔸️
 │${setv} ${prefix}sticker (send/reply img)
 │${setv} ${prefix}colong (reply stiker)
@@ -4374,7 +4374,7 @@ module.exports = naze = async (naze, m, msg, store) => {
 │${setv} ${prefix}emojimix 🙃+💀
 │${setv} ${prefix}nulis
 │${setv} ${prefix}readmore text1|text2
-│${setv} ${prefix}qc (pesannya)
+│${setv} ${prefix}qc (𝚃𝚑𝚎 𝚖𝚎𝚜𝚜𝚊𝚐𝚎)
 │${setv} ${prefix}translate
 │${setv} ${prefix}wasted (send/reply img)
 │${setv} ${prefix}triggered (send/reply img)
