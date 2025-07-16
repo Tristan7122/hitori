@@ -9,9 +9,9 @@ const chalk = require('chalk');
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ['6282113821188'] //['628','628'] 2 owner atau lebih
-global.author = 'Nazedev'
-global.botname = 'Hitori Bot'
+global.owner = ['27634624586'] //['628','628'] 2 owner atau lebih
+global.author = 'Tuesday'
+global.botname = '༄𝙿𝙷𝙾𝚁𝙰-𝙼𝙳༄'
 global.packname = 'Bot WhatsApp'
 global.listprefix = ['+','!','.']
 
@@ -25,7 +25,7 @@ global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧
 global.tempatDB = 'database.json' // Taruh url mongodb di sini jika menggunakan mongodb. Format : 'mongodb+srv://...'
 global.tempatStore = 'baileys_store.json' // Taruh url mongodb di sini jika menggunakan mongodb. Format : 'mongodb+srv://...'
 global.pairing_code = true
-global.number_bot = '' // Kalo pake panel bisa masukin nomer di sini, jika belum ambil session. Format : '628xx'
+global.number_bot = '27689344972' // Kalo pake panel bisa masukin nomer di sini, jika belum ambil session. Format : '628xx'
 
 global.fake = {
 	anonim: 'https://telegra.ph/file/95670d63378f7f4210f03.png',
@@ -43,7 +43,7 @@ global.my = {
 }
 
 global.limit = {
-	free: 20,
+	free: 920,
 	premium: 999,
 	vip: 9999
 }
@@ -55,14 +55,14 @@ global.money = {
 }
 
 global.mess = {
-	key: 'Apikey mu telah habis silahkan kunjungi\nhttps://my.hitori.pw',
-	owner: 'Fitur Khusus Owner!',
-	admin: 'Fitur Khusus Admin!',
-	botAdmin: 'Bot Bukan Admin!',
-	group: 'Gunakan Di Group!',
-	private: 'Gunakan Di Privat Chat!',
-	limit: 'Limit Anda Telah Habis!',
-	prem: 'Khusus User Premium!',
+	key: 'Your apikey has expired, please visit\nhttps://my.hitori.pw',
+	owner: 'This is Owner Special Features!',
+	admin: 'This command/s are for Admin!',
+	botAdmin: 'Make bot Admin to perform this action!',
+	group: 'Use In Group!',
+	private: 'Use in Private Chat!',
+	limit: 'Your Limit Has Expired!',
+	prem: 'Premium Users Only!',
 	wait: 'Loading...',
 	error: 'Error!',
 	done: 'Done'
@@ -78,7 +78,7 @@ global.APIKeys = {
 
 // Lainnya
 
-global.badWords = ['tolol','goblok','asu','pantek','kampret','ngentot','jancok','kontol','memek','lonte']
+global.badWords = ['pussy','dick','Fuck','poes','motherfucker','ass','asshole','kontol','memek','lonte']
 global.chatLength = 1000
 
 //~~~~~~~~~~~~~~~< PROCESS >~~~~~~~~~~~~~~~\\
